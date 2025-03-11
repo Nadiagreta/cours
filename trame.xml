@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mindmap>
+  <title>Guide pour générer un QCM portable dans Moodle avec une IA générative de texte</title>
+  
+  <branches>
+    <!-- Branche Introduction -->
+    <branch id="introduction" color="#283E51">
+      <name>Introduction</name>
+      <content>
+        <paragraph>Ce guide vous explique comment générer un QCM portable dans Moodle en utilisant une IA générative de texte. Nous allons utiliser un exemple déjà présent dans la banque de prompts proposée par nuidu.org.</paragraph>
+      </content>
+    </branch>
+    
+    <!-- Branche Étapes -->
+    <branch id="etapes" color="#5D8AA8">
+      <name>Étapes</name>
+      
+      <!-- Étape 1 -->
+      <subbranch id="etape1" color="#79ADDC">
+        <name>1. Structure du Prompt</name>
+        <elements>
+          <element id="identite" color="#D4E6F1">
+            <name>Identité</name>
+            <description>Fixez le rôle de professeur d'histoire.</description>
+          </element>
+          
+          <element id="contexte" color="#D4E6F1">
+            <name>Contexte</name>
+            <description>Le professeur enseigne à des élèves de Première de lycée général.</description>
+          </element>
+          
+          <element id="action" color="#D4E6F1">
+            <name>Action</name>
+            <subelements>
+              <subelement id="objectif" color="#EBF5FB">
+                <name>Objectif</name>
+                <description>Réaliser un QCM en posant cinq questions avec des dates clés de l'histoire du mur de Berlin.</description>
+              </subelement>
+              
+              <subelement id="contenu" color="#EBF5FB">
+                <name>Contenu</name>
+                <description>Fournir le contenu à partir duquel l'IA générera les questions.</description>
+              </subelement>
+            </subelements>
+          </element>
+        </elements>
+      </subbranch>
+      
+      <!-- Étape 2 -->
+      <subbranch id="etape2" color="#79ADDC">
+        <name>2. Copier le Prompt</name>
+        <description>Copiez le prompt détaillé dans un dialogue avec l'IA (par exemple, ChatGPT 3.5).</description>
+      </subbranch>
+      
+      <!-- Étape 3 -->
+      <subbranch id="etape3" color="#79ADDC">
+        <name>3. Génération des Questions</name>
+        <elements>
+          <element id="generation" color="#D4E6F1">
+            <description>L'IA générera les questions en fonction du contenu fourni.</description>
+          </element>
+          <element id="critique" color="#D4E6F1">
+            <description>Exercez un regard critique sur les questions générées et modifiez-les si nécessaire.</description>
+          </element>
+        </elements>
+      </subbranch>
+      
+      <!-- Étape 4 -->
+      <subbranch id="etape4" color="#79ADDC">
+        <name>4. Demander des Rétroactions</name>
+        <elements>
+          <element id="retroactions" color="#D4E6F1">
+            <description>Demandez à l'IA de proposer des rétroactions pour chaque question.</description>
+          </element>
+          <element id="modifications" color="#D4E6F1">
+            <description>Vous pouvez également demander des modifications ou des précisions.</description>
+          </element>
+        </elements>
+      </subbranch>
+      
+      <!-- Étape 5 -->
+      <subbranch id="etape5" color="#79ADDC">
+        <name>5. Transformation en XML Moodle</name>
+        <elements>
+          <element id="transformation" color="#D4E6F1">
+            <description>Demandez à l'IA de transformer le QCM en format XML compatible avec Moodle.</description>
+          </element>
+          <element id="copie" color="#D4E6F1">
+            <description>Copiez le code XML généré.</description>
+          </element>
+        </elements>
+      </subbranch>
+      
+      <!-- Étape 6 -->
+      <subbranch id="etape6" color="#79ADDC">
+        <name>6. Créer un Fichier XML</name>
+        <elements>
+          <element id="coller" color="#D4E6F1">
+            <description>Collez le code XML dans un éditeur de texte.</description>
+          </element>
+          <element id="enregistrer" color="#D4E6F1">
+            <description>Enregistrez le fichier sur votre disque dur avec l'extension .xml.</description>
+          </element>
+        </elements>
+      </subbranch>
+      
+      <!-- Étape 7 -->
+      <subbranch id="etape7" color="#79ADDC">
+        <name>7. Importer dans Moodle</name>
+        <elements>
+          <!-- Moodle A -->
+          <element id="moodleA" color="#A9CCE3">
+            <name>Moodle A</name>
+            <steps>
+              <step>Rendez-vous dans le cours.</step>
+              <step>Allez dans la banque de questions.</step>
+              <step>Cliquez sur "Importer" et choisissez le fichier XML.</step>
+              <step>Déposez le fichier sur le serveur et réalisez l'importation.</step>
+              <step>Vous devriez voir un message indiquant que l'importation s'est bien déroulée.</step>
+              <step>Les questions sont maintenant disponibles dans la banque de questions.</step>
+            </steps>
+          </element>
+          
+          <!-- Moodle Généraliste -->
+          <element id="moodleGeneraliste" color="#A9CCE3">
+            <name>Moodle Généraliste</name>
+            <steps>
+              <step>Rendez-vous dans le cours.</step>
+              <step>Allez dans la banque de questions.</step>
+              <step>Cliquez sur "Importer" et assurez-vous de cocher le format "XML Moodle".</step>
+              <step>Choisissez le fichier XML et déposez-le sur la plateforme.</step>
+              <step>Réalisez l'importation.</step>
+              <step>Les questions devraient apparaître dans la banque de questions.</step>
+            </steps>
+          </element>
+        </elements>
+      </subbranch>
+    </branch>
+  </branches>
+</mindmap>
