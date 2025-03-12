@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<process>
+    <title>Création et diffusion d'activités interactives avec Nolej et Moodle</title>
+    
+    <step id="1" name="Utilisation de Nolej pour créer des activités">
+        <substep id="1.1" name="Création d’un module">
+            <task>Connexion à Nolej</task>
+            <task>Nouveau module</task>
+            <task>Insérer média(s) (texte, vidéo, audio, lien web)</task>
+            <task>Définir objectif(s)</task>
+            <task>Sélectionner mots-clés (pour orienter l’analyse du contenu)</task>
+            <task>Choisir activités (quiz, résumé, vidéo interactive…)</task>
+            <task>Générer activités</task>
+            <task>Modifier (ajouter, supprimer, corriger questions)</task>
+            <task>Possibilité de modifier sur Moodle après importation</task>
+        </substep>
+        
+        <substep id="1.2" name="Diffusion des activités">
+            <task>Partager via lien ou QR Code</task>
+            <task>Télécharger en format H5P pour Moodle</task>
+        </substep>
+    </step>
+    
+    <step id="2" name="Intégration sur Moodle">
+        <substep id="2.1" name="Dépôt du fichier H5P">
+            <task>Aller dans le cours</task>
+            <task>Accéder à la banque de contenus puis "plus" (dans le bandeau du haut)</task>
+            <task>Déposer/Ajouter le fichier H5P</task>
+            <task>Nommer l’activité (nom-type de H5P)</task>
+            <task>Valider l’importation</task>
+            <task>Modifier directement dans Moodle si besoin</task>
+        </substep>
+        
+        <substep id="2.2" name="Ajout de l’activité dans un cours">
+            <task>Aller dans le cours et activer l'édition</task>
+            <task>Ajouter une activité ou ressource</task>
+            <task>Sélectionner "Contenu interactif H5P"</task>
+            <task>Importer depuis la banque de contenus</task>
+            <task>Configurer les paramètres (notation, tentatives…)</task>
+            <task>Modification possible directement dans Moodle</task>
+            <task>Valider et enregistrer</task>
+        </substep>
+    </step>
+</process>
